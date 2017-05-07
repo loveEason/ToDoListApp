@@ -1,0 +1,6 @@
+module CreatorModule{
+    interface Creator{
+        boolean login(in string name,in string password);
+        boolean register(in string name,in string password);
+    };
+};
